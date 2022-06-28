@@ -79,7 +79,7 @@ public class Main {
 
 			
 			// display mean error of the epoch
-			System.out.println("epoch n°"+epoch+" : "+(sumdelta/nbTests));
+			System.out.println("epoch nÂ°"+epoch+" : "+(sumdelta/nbTests));
 		}
 		
 		System.out.println("learning completed");
