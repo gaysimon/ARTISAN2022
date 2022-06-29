@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main {
 
-	public static String PATH="C:\\Users\\login\\Desktop\\";	// path to images
+	public static String PATH="C:\\Users\\login\\Desktop\\numbers\\";	// path to images
 	
 	public static int size_x=28;	// size of the image (set when image is loaded)
 	public static int size_y=28;
@@ -40,7 +40,7 @@ public class Main {
 		//neuron=new Neuron(size_x*size_y);
 		
 		// load test matrix
-		setData("numbers\\train-images.idx3-ubyte","numbers\\train-labels.idx1-ubyte");
+		setData("train-images.idx3-ubyte","train-labels.idx1-ubyte");
 
 		// initialize display frame
 		display=new DisplayFrame(this);
@@ -93,7 +93,7 @@ public class Main {
 		int errors=0;
 		
 		// load test matrix
-		setData("numbers\\t10k-images.idx3-ubyte","numbers\\t10k-labels.idx1-ubyte");
+		setData("t10k-images.idx3-ubyte","t10k-labels.idx1-ubyte");
 		
 		
 		// test each image of the 
