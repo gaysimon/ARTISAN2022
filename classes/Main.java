@@ -107,7 +107,7 @@ public class Main {
 			
 
 			// count errors
-
+			//if (matrixLabels[test]==number && res<0.5 || matrixLabels[test]!=number && res>0.5) errors++;
 			
 		}
 
